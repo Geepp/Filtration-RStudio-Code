@@ -1,7 +1,7 @@
 library(tidyr)
 library(ggplot2)
 library(patchwork)
-setwd("/Users/mozze/Desktop/filtration")
+setwd("/Users//Desktop/filtration")
 
 data_oyster<-read.table(file="oyster_filtration_data.tsv", sep="\t", header=TRUE)
 str(data_oyster)
@@ -210,7 +210,6 @@ p5 + p6
 
 ######################## Abundance map using .shp files #######################
 
-setwd("/Users/mozze/Desktop/filtration")
 my_sf <- read_sf(
   file.path(getwd(), "water.tjarno.shp")
 )
