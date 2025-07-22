@@ -1,7 +1,7 @@
 library(tidyr)
 library(ggplot2)
 library(patchwork)
-setwd("/Users//Desktop/filtration")
+setwd()
 
 data_oyster<-read.table(file="oyster_filtration_data.tsv", sep="\t", header=TRUE)
 str(data_oyster)
